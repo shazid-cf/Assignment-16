@@ -1,0 +1,212 @@
+img {
+    max-width: 100%;
+}
+
+/* start header section css */
+.header {
+    background-color: #101446;
+}
+.header .header-left img {
+    width: 90px;
+}
+.header-right {
+    margin-top: 15px;
+}
+.header-right ul {
+    padding: 0;
+    margin: 0;
+}
+.header-right ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.header-right ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* end header section css */
+
+/* start benner section css */
+.benner {
+    background: url('./pic/img5.jpg') no-repeat center;
+    background-size: cover;
+    padding: 250px 0px;
+    position: relative;
+    z-index: 1;
+}
+.benner::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 19, 19, 0.671);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+.benner .benner-content h3 {
+    font-size: 22px;
+    margin-bottom: 22px;
+    opacity: 0.9;
+}
+.benner .benner-content p {
+    width: 885px;
+    margin: auto;
+    margin-bottom: 37px;
+    opacity: 0.9;
+}
+.benner .benner-content .btn {
+    font-size: 13px;
+    background-color: #337AB7;
+    border-color: #337AB7;
+    color: white;
+}
+
+/* end benner section css */
+
+/* start teem section css */
+.teem {
+    background-color: #BAC1F3;
+}
+.teem .title h1 {
+    font-size: 48px;
+    margin-top: 85px;
+}
+.teem .teem-info {
+    margin-top: 50px;
+}
+.teem .teem-info img {
+    width: 135px;
+}
+.teem .teem-info h6 {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.teem .teem-info p {
+    font-size: 12px;
+    width: 131px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.teem .teem-info .btn {
+    background-color: #337AB7;
+    font-size: 11px;
+}
+/* end teem section css */
+
+/* start about section */
+.about {
+    background-color: #C2D4EA;
+    padding-bottom: 80px;
+}
+.about h1 {
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+.about .about-left .about-img {
+    text-align: right;
+}
+.about .about-left .about-img img {
+    width: 110px;
+}
+.about .about-left h5 {
+    font-size: 11px;
+    margin-left: 32px;
+    opacity: 0.6;
+}
+.about .about-left p {
+    font-size: 11px;
+    width: 420px;
+    margin-left: 144px;
+    margin-top: 15px;
+    line-height: 15px;
+}
+
+
+.about .about-right h2 {
+    font-size: 17px;
+}
+.about .about-right p {
+    font-size: 11px;
+    width: 410px;
+    opacity: 0.8;
+    font-weight: 600;
+    line-height: 14px;
+}
+.about .about-right .content {
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.7;
+}
+/* start about section */
+
+/* start contact section css */
+.contact {
+    background-color: #F5F5F5;
+    padding-bottom: 75px;
+}
+.contact h1 {
+    margin: 43px 0px;
+    font-size: 46px;
+    font-weight: 400;
+}
+.contact .contact-address {
+    width: 450px;
+    height: 355px;
+}
+.contact .contact-address .map {
+    width: 100%;
+    height: 100%;
+    margin-left: 94px;
+}
+.contact .contact-form span {
+    font-size: 11px;
+    font-weight: 700;
+}
+.contact .contact-form .form-row {
+    padding-right: 307px;
+    height: 25px;
+    font-size: 11px;
+    font-weight: 400;
+    outline: none;
+    border-radius: 5px;
+    opacity: 0.8;
+    border: none;
+    border: 1px solid #e1dadad1;
+    margin-top: 7px;
+    margin-bottom: -4px;
+}
+.contact .contact-form .form-text {
+    padding-right: 223px;
+    border-radius: 5px;
+    height: 85px;
+    border: none;
+    border: 1px solid #e1dadad1;
+}
+.contact .contact-form .btn {
+    background-color: #5BC0DE;
+    color: white;
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 3px 10px;
+    opacity: 0.7;
+}
+/* end contact section css */
+
+/* start footer section */
+.footer {
+    background-color: #0062D3;
+    color: white;
+    padding: 30px 0px;
+}
+.footer h6 {
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: 300;
+}
+/* end footer section */
